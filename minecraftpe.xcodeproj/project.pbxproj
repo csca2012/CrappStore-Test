@@ -14,6 +14,7 @@
 		1F5A1B3A1776A7D1008852EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5A1B391776A7D1008852EC /* main.m */; };
 		1F5A1B3E1776A7D1008852EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5A1B3D1776A7D1008852EC /* AppDelegate.m */; };
 		1F5A1B401776A7D1008852EC /* plusutil in Resources */ = {isa = PBXBuildFile; fileRef = 1F5A1B3F1776A7D1008852EC /* plusutil */; };
+		1F5A1B471776A811008852EC /* mcpe.ipa in Resources */ = {isa = PBXBuildFile; fileRef = 1F5A1B461776A811008852EC /* mcpe.ipa */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +24,10 @@
 		1F5A1B321776A7D1008852EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1F5A1B361776A7D1008852EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F5A1B391776A7D1008852EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1F5A1B3C1776A7D1008852EC /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		1F5A1B3C1776A7D1008852EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		1F5A1B3D1776A7D1008852EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
 		1F5A1B3F1776A7D1008852EC /* plusutil */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = plusutil; sourceTree = "<group>"; };
+		1F5A1B461776A811008852EC /* mcpe.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = mcpe.ipa; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 		1F5A1B1E1776A7D1008852EC = {
 			isa = PBXGroup;
 			children = (
+				1F5A1B461776A811008852EC /* mcpe.ipa */,
 				1F5A1B341776A7D1008852EC /* minecraftpe */,
 				1F5A1B2D1776A7D1008852EC /* Frameworks */,
 				1F5A1B2B1776A7D1008852EC /* Products */,
@@ -158,6 +161,7 @@
 			files = (
 				1F5A1B371776A7D1008852EC /* Info.plist in Resources */,
 				1F5A1B401776A7D1008852EC /* plusutil in Resources */,
+				1F5A1B471776A811008852EC /* mcpe.ipa in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
