@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F5A1B2F1776A7D1008852EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F5A1B2E1776A7D1008852EC /* UIKit.framework */; };
+		1F5A1B311776A7D1008852EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F5A1B301776A7D1008852EC /* Foundation.framework */; };
+		1F5A1B331776A7D1008852EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F5A1B321776A7D1008852EC /* CoreGraphics.framework */; };
+		1F5A1B371776A7D1008852EC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F5A1B361776A7D1008852EC /* Info.plist */; };
+		1F5A1B3A1776A7D1008852EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5A1B391776A7D1008852EC /* main.m */; };
+		1F5A1B3E1776A7D1008852EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5A1B3D1776A7D1008852EC /* AppDelegate.m */; };
+		1F5A1B401776A7D1008852EC /* plusutil in Resources */ = {isa = PBXBuildFile; fileRef = 1F5A1B3F1776A7D1008852EC /* plusutil */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F5A1B2A1776A7D1008852EC /* minecraftpe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minecraftpe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F5A1B2E1776A7D1008852EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1F5A1B301776A7D1008852EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F5A1B321776A7D1008852EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1F5A1B361776A7D1008852EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F5A1B391776A7D1008852EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F5A1B3C1776A7D1008852EC /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		1F5A1B3D1776A7D1008852EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
+		1F5A1B3F1776A7D1008852EC /* plusutil */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = plusutil; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F5A1B261776A7D1008852EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5A1B2F1776A7D1008852EC /* UIKit.framework in Frameworks */,
+				1F5A1B311776A7D1008852EC /* Foundation.framework in Frameworks */,
+				1F5A1B331776A7D1008852EC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F5A1B1E1776A7D1008852EC = {
+			isa = PBXGroup;
+			children = (
+				1F5A1B341776A7D1008852EC /* minecraftpe */,
+				1F5A1B2D1776A7D1008852EC /* Frameworks */,
+				1F5A1B2B1776A7D1008852EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F5A1B2B1776A7D1008852EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F5A1B2A1776A7D1008852EC /* minecraftpe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F5A1B2D1776A7D1008852EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F5A1B2E1776A7D1008852EC /* UIKit.framework */,
+				1F5A1B301776A7D1008852EC /* Foundation.framework */,
+				1F5A1B321776A7D1008852EC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F5A1B341776A7D1008852EC /* minecraftpe */ = {
+			isa = PBXGroup;
+			children = (
+				1F5A1B3F1776A7D1008852EC /* plusutil */,
+				1F5A1B351776A7D1008852EC /* Resources */,
+				1F5A1B381776A7D1008852EC /* Other Sources */,
+				1F5A1B3B1776A7D1008852EC /* Classes */,
+			);
+			path = minecraftpe;
+			sourceTree = "<group>";
+		};
+		1F5A1B351776A7D1008852EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F5A1B361776A7D1008852EC /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1F5A1B381776A7D1008852EC /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1F5A1B391776A7D1008852EC /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		1F5A1B3B1776A7D1008852EC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1F5A1B3C1776A7D1008852EC /* AppDelegate.h */,
+				1F5A1B3D1776A7D1008852EC /* AppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F5A1B291776A7D1008852EC /* minecraftpe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F5A1B431776A7D1008852EC /* Build configuration list for PBXNativeTarget "minecraftpe" */;
+			buildPhases = (
+				1F5A1B251776A7D1008852EC /* Sources */,
+				1F5A1B261776A7D1008852EC /* Frameworks */,
+				1F5A1B271776A7D1008852EC /* Resources */,
+				1F5A1B281776A7D1008852EC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = minecraftpe;
+			productName = minecraftpe;
+			productReference = 1F5A1B2A1776A7D1008852EC /* minecraftpe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F5A1B201776A7D1008852EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1F5A1B231776A7D1008852EC /* Build configuration list for PBXProject "minecraftpe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F5A1B1E1776A7D1008852EC;
+			productRefGroup = 1F5A1B2B1776A7D1008852EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F5A1B291776A7D1008852EC /* minecraftpe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F5A1B271776A7D1008852EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5A1B371776A7D1008852EC /* Info.plist in Resources */,
+				1F5A1B401776A7D1008852EC /* plusutil in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F5A1B281776A7D1008852EC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "IPAFILE=`ls \"${SOURCE_ROOT}\"/\"${PROJECT_NAME}\"/*.ipa 2>/dev/null`\n\nif [ -e \"${IPAFILE}\"  -a ! -e \"${SOURCE_ROOT}\"/\"${PROJECT_NAME}\"/Payload/\"${WRAPPER_NAME}\"/\"${PROJECT_NAME}\" ] ; then\n   unzip \"${IPAFILE}\" -d \"${SOURCE_ROOT}\"/\"${PROJECT_NAME}\"\nfi\n\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ]  && [ \"${BUILD_STYLE}\" == \"Debug\"  ]; then\n  if [ -f \"${SOURCE_ROOT}\"/\"${PROJECT_NAME}\"/Payload/\"${WRAPPER_NAME}\"/Info.plist ]; then\n    rm -fr \"${SOURCE_ROOT}\"/\"${PROJECT_NAME}\"/Payload/\"${WRAPPER_NAME}\"/SC_Info \"${SOURCE_ROOT}\"/\"${PROJECT_NAME}\"/Payload/\"${WRAPPER_NAME}\"/CodeResources \"${SOURCE_ROOT}\"/\"${PROJECT_NAME}\"/Payload/\"${WRAPPER_NAME}\"/_CodeSignature\n    \"${SOURCE_ROOT}\"/\"${PROJECT_NAME}\"/plusutil -r SignerIdentity \"${SOURCE_ROOT}\"/Payload/\"${WRAPPER_NAME}\"/Info.plist\n    cp \"${SOURCE_ROOT}\"/\"${PROJECT_NAME}\"/Payload/\"${WRAPPER_NAME}\"/Info.plist \"${SOURCE_ROOT}\"/\"${PROJECT_NAME}\"\n    if [ ! -x \"${SOURCE_ROOT}\"/\"${PROJECT_NAME}\"/Payload/\"${WRAPPER_NAME}\"/\"${PROJECT_NAME}\" ]; then\n      chmod +x \"${SOURCE_ROOT}\"/\"${PROJECT_NAME}\"/Payload/\"${WRAPPER_NAME}\"/\"${PROJECT_NAME}\"\n    fi\n    if [ -e \"${SOURCE_ROOT}\"/\"${PROJECT_NAME}\"/Payload/\"${WRAPPER_NAME}\"/iTunesArtwork ] ; then\n      rm -f \"${SOURCE_ROOT}\"/\"${PROJECT_NAME}\"/Payload/\"${WRAPPER_NAME}\"/iTunesArtwork\n    fi\n    if [ -e \"${BUILT_PRODUCTS_DIR}\"/\"${WRAPPER_NAME}\" ] ; then\n      mv \"${SOURCE_ROOT}\"/\"${PROJECT_NAME}\"/Payload/\"${WRAPPER_NAME}\"/* \"${BUILT_PRODUCTS_DIR}\"/\"${WRAPPER_NAME}\"/\n      echo \"Payload OK\"\n      exit 0\n    else\n      echo \"Release build folder build/Release-iphoneos/${WRAPPER_NAME} not found\"\n      exit 1\n    fi\n  fi\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F5A1B251776A7D1008852EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5A1B3A1776A7D1008852EC /* main.m in Sources */,
+				1F5A1B3E1776A7D1008852EC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1F5A1B411776A7D1008852EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F5A1B421776A7D1008852EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1F5A1B441776A7D1008852EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1F5A1B451776A7D1008852EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F5A1B231776A7D1008852EC /* Build configuration list for PBXProject "minecraftpe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F5A1B411776A7D1008852EC /* Debug */,
+				1F5A1B421776A7D1008852EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F5A1B431776A7D1008852EC /* Build configuration list for PBXNativeTarget "minecraftpe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F5A1B441776A7D1008852EC /* Debug */,
+				1F5A1B451776A7D1008852EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F5A1B201776A7D1008852EC /* Project object */;
+}
